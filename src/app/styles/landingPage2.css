@@ -1,0 +1,165 @@
+.titlelp2{
+    font-size: 34px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.image1{
+    background-image: url(../images/primeiroEmprego.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image2{
+    background-image: url(../images/design.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image3{
+    background-image: url(../images/administrativo.webp);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image4{
+    background-image: url(../images/marketing.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image5{
+    background-image: url(../images/recursosHumanos.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image6{
+    background-image: url(../images/saude.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image7{
+    background-image: url(../images/tecnologia.webp);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.image8{
+    background-image: url(../images/engenharia.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap:40px; /* Espaço entre os cards */
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: -1000px;
+    margin-top: 40px;
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-top: auto;
+    
+}
+
+.content:hover{
+    opacity: 0.6;
+}
+
+.content h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+
+
+
+.content > *{
+    transform:translateY(25px);
+    transition: transform 0.6s; 
+}
+
+.content:hover > *{
+    transform:translateY(0px);
+}
+

@@ -1,6 +1,6 @@
-export default function Main() {
+export default function LandingPage1() {
     return(
-        <main>
+        <main className="mainPage1">
             <aside>
                 <h2 className="txt1"><span>O site de vagas</span></h2>
                 <h2 className="txt2">mais usado do Brasil</h2>
@@ -23,7 +23,7 @@ export default function Main() {
             </aside>
 
             <article>
-                <img src="https://github.com/alexandresaints/landing-page-tutorial/blob/main/components/images/77d0a7c454e658833800528e748edbe9.png?raw=true" alt="Mulher" />     
+                <img src="https://cdn-icons-png.flaticon.com/512/5928/5928334.png" alt=" " />     
             </article>
 
             

@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Navbar() {
     return (
         <header>
             <nav >
@@ -18,7 +18,6 @@ export default function Header() {
                     <li><a href="#">Anunciar Vaga</a></li>
                     <li><a>|</a></li>
                     <li><a href="#">Login</a></li>
-                    <li><a>|</a></li>
                     <button  className="cadastro">Cadastrar CV</button>
                    </ul>
                 </div>
