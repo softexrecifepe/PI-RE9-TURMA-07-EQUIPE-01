@@ -5,58 +5,56 @@ header {
     padding: 0;
     margin: 0;
     background-color: #e0f2fe;
-    font-family: 'poppins', sans-serif;
 }
 
 *{
     background-color:#eef2ff ;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 nav {
     display: flex;
-    justify-content: space-around;
-    font-family: 'poppins', sans-serif;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin-top: 5px;
     align-items: center;
     color: #202020;
 }
 
 .logo{
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
     color: #1e40af;
+
 }
 
 .nav-itens{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 .nav-itens>li>a{
-    padding-left: 20px;
+    padding-left: 25px;
     color: rgb(132,14,201);
     text-decoration: none;
-    margin: 15px;
-    font-size: 20px;
+    font-size: 13px;
+    font-weight: 500;
 }
 
-.login{
-    padding: 10px 40px;
-    font-size: 15px;
-    border: none;
-    color: #000;
-    background-color: #fff;
-    border-radius: 8px;
-    font-family: 'poppins', sans-serif;
-    cursor: pointer;
-    transition: 1s background;
-    margin: 20px;
+.actions-itens{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
 }
 
-.login:hover{
-    background-color: #f0f0f0;
-    transition: 1s background;
+.actions-itens>li>a{
+    color: rgb(132,14,201);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 25px;
 }
 
 .cadastro{
@@ -65,13 +63,14 @@ nav {
     border: none;
     color: #fff;
     background-color: #1e40af;
-    border-radius: 8px;
+    border-radius: 20px;
     font-family: 'poppins', sans-serif;
     cursor: pointer;
     transition: 1s background;
+    margin-left: 15px;
 }
 
 .cadastro:hover{
-    background-color: #1e3b9b;
+    background-color: #04113d;
     transition: 1s background;
 }

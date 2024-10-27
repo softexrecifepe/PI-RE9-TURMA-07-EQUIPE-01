@@ -1,19 +1,17 @@
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 120px;
+    margin-top: 60px;
     justify-content: space-around;
     margin-left: 65px;
-    
 }
 
-
-
 h2{
-    font-size: 70px;
+    font-size: 68px;
     line-height: 10px;
     font-family: poppins;
     color: rgb(132,14,201);
+    margin-right: 70px;
 }
 
 span{
@@ -28,7 +26,7 @@ p{
 }
 
 img{
-    width: 580px;
+    width: 500px;
 }
 
 form{
