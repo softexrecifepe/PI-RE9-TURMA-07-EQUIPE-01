@@ -1,3 +1,9 @@
 html{
-    height: 500vh;  
+    height: 500vh;
+    background-color: #caefff;
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
 }

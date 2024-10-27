@@ -1,14 +1,14 @@
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 30px;
     justify-content: space-around;
-    margin-left: 65px;
+    margin-left: 10px;
 }
 
 h2{
-    font-size: 68px;
-    line-height: 10px;
+    font-size: 60px;
+    line-height: 20px;
     font-family: poppins;
     color: rgb(132,14,201);
     margin-right: 70px;
@@ -26,13 +26,14 @@ p{
 }
 
 img{
-    width: 500px;
+    width: 465px;
+    margin-left: 60px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
 }
 
 form [type="submit"]{
@@ -47,7 +48,7 @@ text-align:center;
 
 form [type="submit"]:hover{
    cursor: pointer;
-    }
+}
 
 input{
     margin-top: 20px;
@@ -55,6 +56,69 @@ input{
     padding: 15px;
     border-radius: 20px;
     border: none;
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 15px;
+    display: flex;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px 100px 100px 50px;
+    margin-top: 50px;
+    
+}
+
+.form-container>form>input{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 230px;
+    margin-left: 10px;
+    
+    
+}
+
+.form-container>form>label{
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: -25px;
+    margin-left: 25px;
+    font-weight: 700;
+
+}
+
+.a{
+    border-radius: 16px 0px 0px 16px;
+}
+
+.b{
+    border-radius: 0px 16px 16px 0px;
+}
+
+.btn-form{
+   width: 200px;
+   height: 50px;
+   align-items: center;
+   border: none;
+   border-radius: 100px;
+   background-color: #1e40af;
+   color: #fff;
+   font-weight: 600;
+   margin-top: 12.5px;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: 1s background;
+}
+
+.btn-form:hover{
+    background-color: #38025c;
+    transition: 1s background;
+}
+
+.form-diviser{
+    font-weight: 150;
+    color: #000;
 }
