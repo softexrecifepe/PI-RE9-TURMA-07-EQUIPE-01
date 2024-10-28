@@ -87,6 +87,7 @@ input{
     margin-bottom: -25px;
     margin-left: 25px;
     font-weight: 700;
+    color: #3730a3;
 
 }
 
@@ -122,3 +123,16 @@ input{
     font-weight: 150;
     color: #000;
 }
+
+.diviser {
+    border: none; 
+    border-top: 1px solid #a8aeff; 
+    width: 160%;                
+    margin: 110px auto;        
+}
+
+
+
+
+
+

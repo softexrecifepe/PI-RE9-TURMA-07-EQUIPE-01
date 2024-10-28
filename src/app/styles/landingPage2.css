@@ -1,9 +1,15 @@
+
+
+
 .titlelp2{
-    font-size: 34px;
-    color: #000000;
+    font-size: 38px;
+    color: #2e2785;
     text-align: center;
-    margin-top: 60px;
+    margin-top: -140px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 
 .image1{
     background-image: url(../images/primeiroEmprego.jpg);
@@ -16,7 +22,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image2{
     background-image: url(../images/design.jpg);
@@ -29,7 +35,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image3{
     background-image: url(../images/administrativo.webp);
@@ -42,7 +48,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image4{
     background-image: url(../images/marketing.png);
@@ -55,7 +61,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image5{
     background-image: url(../images/recursosHumanos.jpg);
@@ -68,7 +74,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image6{
     background-image: url(../images/saude.jpg);
@@ -81,7 +87,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image7{
     background-image: url(../images/tecnologia.webp);
@@ -94,7 +100,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 .image8{
     background-image: url(../images/engenharia.jpg);
@@ -107,7 +113,7 @@
     display: block;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
+    border: 1px solid rgb(132,14,201);
 }
 
 .wrapper{
@@ -119,7 +125,7 @@
     max-width: 1200px;
     margin: auto;
     margin-bottom: -1000px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 
@@ -148,10 +154,8 @@
     color: white;
     text-align: center;
     margin-top: 30%;
+    line-height: 1px;
 }
-
-
-
 
 
 .content > *{
@@ -161,5 +165,16 @@
 
 .content:hover > *{
     transform:translateY(0px);
+}
+
+.uu{
+    background-color: black;
+}
+
+.diviser2 {
+    border: none;             
+    border-top: 1px solid #a8aeff; 
+    width: 445%;                
+    margin: 50px auto;        
 }
 

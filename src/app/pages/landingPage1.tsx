@@ -1,6 +1,6 @@
 export default function LandingPage1() {
     return(
-        <main className="mainPage1">
+        <main>
             <aside>
                 <h2 className="txt1"><span>O site de vagas</span></h2>
                 <h2 className="txt2">mais usado do Brasil</h2>
@@ -16,17 +16,26 @@ export default function LandingPage1() {
                         <input className="b" type="text" placeholder="Localização"/>
                     </form>
 
-                    <button className="btn-form">ACHAR VAGAS</button>
-
+                    <button className="btn-form">BUSCAR VAGAS</button>
+                    
                 </div>
             
+                
+                    <hr className="diviser"/>
+                
+
             </aside>
+            
+           
+                
 
             <article>
                 <img src="https://cdn-icons-png.flaticon.com/512/5928/5928334.png" alt=" " />     
             </article>
 
             
-        </main>
+            
+            
+        </main>       
     )
 }

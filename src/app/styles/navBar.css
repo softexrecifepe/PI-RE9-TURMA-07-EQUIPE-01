@@ -31,7 +31,7 @@ nav {
     padding-left: 25px;
     color: rgb(132,14,201);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 450;
 }
 
@@ -45,7 +45,7 @@ nav {
 .actions-itens>li>a{
     color: rgb(132,14,201);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 450;
     padding-left: 25px;
 }
