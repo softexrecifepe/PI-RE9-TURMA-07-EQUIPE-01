@@ -1,0 +1,138 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 20px;
+    font-family: poppins;
+    color: rgb(132,14,201);
+    margin-right: 70px;
+}
+
+span{
+    color: #3730a3;
+}
+
+p{
+    line-height: 25px;
+    max-width: 600px;
+    font-size: 20px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 465px;
+    margin-left: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form [type="submit"]{
+height: 50px;
+width: 50%;
+background-color: #1e40af;
+color: #fff;
+font-weight: bold;
+text-align: center;
+text-align:center;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    display: flex;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px 100px 100px 50px;
+    margin-top: 50px;
+    
+}
+
+.form-container>form>input{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 230px;
+    margin-left: 10px;
+    
+    
+}
+
+.form-container>form>label{
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: -25px;
+    margin-left: 25px;
+    font-weight: 700;
+    color: #3730a3;
+
+}
+
+.a{
+    border-radius: 16px 0px 0px 16px;
+}
+
+.b{
+    border-radius: 0px 16px 16px 0px;
+}
+
+.btn-form{
+   width: 200px;
+   height: 50px;
+   align-items: center;
+   border: none;
+   border-radius: 100px;
+   background-color: #1e40af;
+   color: #fff;
+   font-weight: 600;
+   margin-top: 12.5px;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: 1s background;
+}
+
+.btn-form:hover{
+    background-color: #38025c;
+    transition: 1s background;
+}
+
+.form-diviser{
+    font-weight: 150;
+    color: #000;
+}
+
+.diviser {
+    border: none; 
+    border-top: 1px solid #a8aeff; 
+    width: 160%;                
+    margin: 110px auto;        
+}
+
+
+
+
+
+
