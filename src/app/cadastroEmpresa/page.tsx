@@ -1,13 +1,12 @@
 "use client";
-import React, { useRef } from 'react';
-import { useRouter } from 'next/router'; // Importar useRouter do Next.js
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation'; // Importar useRouter do Next.js
 import '../styles/cadastroEmpresa.css';
 
 export default function FormularioCadastroEmpresa() {
-  const classeAtivaRef = useRef(false);
-  const gestorRef = useRef('');
-  const gestorRhRef = useRef('');
-  const gestorContratacaoRef = useRef('');
+  const [gestor, setGestor] = useState('');
+  const [gestorRh, setGestorRh] = useState('');
+  const [gestorContratacao, setGestorContratacao] = useState('');
 
   const router = useRouter(); // Inicializar o useRouter
 
@@ -16,7 +15,7 @@ export default function FormularioCadastroEmpresa() {
     e.preventDefault(); // Evita o comportamento padrão de recarregar a página
 
     // Lógica para validar os campos ou enviar os dados
-    if (!gestorRef.current || !gestorRhRef.current || !gestorContratacaoRef.current) {
+    if (!gestor || !gestorRh || !gestorContratacao) {
       alert("Por favor, preencha todos os campos.");
       return;
     }
@@ -25,17 +24,9 @@ export default function FormularioCadastroEmpresa() {
     router.push('/sucesso'); // Navegação programática para a página de sucesso
 
     // Limpar os campos após o envio (se necessário)
-    gestorRef.current = '';
-    gestorRhRef.current = '';
-    gestorContratacaoRef.current = '';
-  };
-
-  // Função para alternar a classe ativa
-  const handleFocus = () => {
-    classeAtivaRef.current = true;
-  };
-  const handleBlur = () => {
-    classeAtivaRef.current = false;
+    setGestor('');
+    setGestorRh('');
+    setGestorContratacao('');
   };
 
   return (
@@ -43,18 +34,16 @@ export default function FormularioCadastroEmpresa() {
       <div>
         <h2 className="form-title">Cadastre sua empresa</h2>
         
-        <form id="form" className={classeAtivaRef.current ? 'ativo' : ''} onSubmit={handleSubmit}>
+        <form id="form" onSubmit={handleSubmit}>
           
           <label>
             Gestor:
             <input 
               type="text" 
               id="gestor" 
-              defaultValue={gestorRef.current}
-              onChange={(e) => gestorRef.current = e.target.value} 
+              value={gestor}
+              onChange={(e) => setGestor(e.target.value)} 
               required 
-              onFocus={handleFocus}
-              onBlur={handleBlur}
             />
           </label>
           
@@ -63,11 +52,9 @@ export default function FormularioCadastroEmpresa() {
             <input 
               type="text" 
               id="gestor-rh" 
-              defaultValue={gestorRhRef.current}
-              onChange={(e) => gestorRhRef.current = e.target.value} 
+              value={gestorRh}
+              onChange={(e) => setGestorRh(e.target.value)} 
               required 
-              onFocus={handleFocus}
-              onBlur={handleBlur}
             />
           </label>
 
@@ -76,11 +63,9 @@ export default function FormularioCadastroEmpresa() {
             <input 
               type="text" 
               id="gestor-contratacao" 
-              defaultValue={gestorContratacaoRef.current}
-              onChange={(e) => gestorContratacaoRef.current = e.target.value} 
+              value={gestorContratacao}
+              onChange={(e) => setGestorContratacao(e.target.value)} 
               required 
-              onFocus={handleFocus}
-              onBlur={handleBlur}
             />
           </label>
 

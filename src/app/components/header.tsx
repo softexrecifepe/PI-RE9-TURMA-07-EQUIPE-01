@@ -23,7 +23,6 @@ export function Header() {
             <li><a>|</a></li>
             <li><Link href="/login">Login</Link></li>
             <li><Link href="/"><button className="cadastro">Cadastrar CV</button></Link></li>
-            {/* Corrigir o caminho da página Cadastro Empresa */}
             <li><Link href="/cadastroEmpresa"><button className="cadastro">Cadastrar Empresa</button></Link></li>
           </ul>
         </div>
