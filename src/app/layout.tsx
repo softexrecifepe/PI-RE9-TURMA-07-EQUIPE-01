@@ -1,9 +1,5 @@
-import "./styles/navBar.css"
-import "./styles/landingPage1.css"
-import "./styles/landingPage2.css"
-import "./styles/global.css"
-import "./styles/landingPage3.css"
-import { Header } from "./components/header"
+
+import { Header } from "./navbar/page"
 
 
 export default function RootLayout({
@@ -13,6 +9,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <title>Re9 - Site de vagas</title>
+      <link rel="icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f4bc.svg" />
       <body>    
 
         <Header />

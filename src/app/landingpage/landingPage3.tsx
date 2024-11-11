@@ -1,3 +1,7 @@
+import './landingPage3.css';
+
+
+
 export default function LandingPage3() {
   return (
     

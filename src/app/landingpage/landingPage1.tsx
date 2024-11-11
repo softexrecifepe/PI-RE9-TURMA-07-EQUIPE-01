@@ -1,3 +1,6 @@
+import './landingPage1.css';
+
+
 export default function LandingPage1() {
     return(
         <main>

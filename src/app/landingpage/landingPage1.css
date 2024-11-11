@@ -1,3 +1,6 @@
+
+
+
 main{
     display: flex;
     flex-direction: row;
@@ -77,14 +80,13 @@ input{
     outline: none;
     width: 230px;
     margin-left: 10px;
-    
-    
+
 }
 
 .form-container>form>label{
     font-size: 15px;
     margin-top: 7px;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
     margin-left: 25px;
     font-weight: 700;
     color: #3730a3;
@@ -127,7 +129,7 @@ input{
 .diviser {
     border: none; 
     border-top: 1px solid #a8aeff; 
-    width: 160%;                
+    width: 166%;                
     margin: 110px auto;        
 }
 

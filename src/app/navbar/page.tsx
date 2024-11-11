@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./navBar.css"
 
 export function Header() {
   return (
@@ -21,7 +22,7 @@ export function Header() {
                     <li><a href="#">Anunciar Vaga</a></li>
                     <li><a>|</a></li>
                     <li><Link href="/login">Login</Link></li>
-                    <li><Link href="/"><button  className="cadastro">Cadastrar CV</button></Link></li>
+                    <li><Link href="/cadastro"><button  className="cadastro">Cadastrar CV</button></Link></li>
                    </ul>
                 </div>
             </nav>

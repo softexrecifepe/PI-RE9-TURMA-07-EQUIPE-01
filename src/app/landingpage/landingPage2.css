@@ -142,18 +142,16 @@
     border-radius: 15px;
     margin-left: auto;
     margin-top: auto;
-    
-}
-
-.content:hover{
     opacity: 0.6;
 }
+
+
 
 .content h1{
     font-size: 20px;
     color: white;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 20%;
     line-height: 1px;
 }
 
@@ -163,9 +161,6 @@
     transition: transform 0.6s; 
 }
 
-.content:hover > *{
-    transform:translateY(0px);
-}
 
 .uu{
     background-color: black;
