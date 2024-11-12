@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation'; // Importar useRouter do Next.js
-import '../styles/cadastroEmpresa.css';
+import './cadastroEmpresa.css';
 
 export default function FormularioCadastroEmpresa() {
   const [gestor, setGestor] = useState('');
