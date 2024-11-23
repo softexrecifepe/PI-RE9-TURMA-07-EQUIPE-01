@@ -1,5 +1,4 @@
 "use client";
-
 import LandingPage1 from "./landingpage/landingPage1";
 import LandingPage2 from "./landingpage/landingPage2";
 import LandingPage3 from "./landingpage/landingPage3";

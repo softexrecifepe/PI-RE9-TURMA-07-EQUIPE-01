@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CandidateCard from './CandidateCard';
+import CandidatoCard from '../candidatoCard/candidatoCard';
 
 function CandidateList() {
   const [filter, setFilter] = useState({
@@ -28,7 +28,7 @@ function CandidateList() {
       endereco: 'Rua Y, 456',
       latitude: -23.559520,
       longitude: -46.643308,
-    },
+    },  
     {
       id: 3,
       nome: 'Pedro Lima',
@@ -41,7 +41,7 @@ function CandidateList() {
     },
   ]);
 
-  const handleFilterChange = (e) => {
+  const handleFilterChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFilter((prevState) => ({
       ...prevState,
@@ -90,7 +90,7 @@ function CandidateList() {
 
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {filteredCandidates.map((candidate) => (
-          <CandidateCard key={candidate.id} candidate={candidate} />
+          <CandidatoCard key={candidate.id} candidate={candidate} />
         ))}
       </div>
     </div>
