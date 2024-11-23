@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CandidatoCard from '../candidatoCard/candidatoCard';
+import CandidatoCard from '../candidatoCard/page';
 
 function CandidateList() {
   const [filter, setFilter] = useState({
@@ -89,8 +89,8 @@ function CandidateList() {
       </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {filteredCandidates.map((candidate) => (
-          <CandidatoCard key={candidate.id} candidate={candidate} />
+        {filteredCandidates.map((candidato) => (
+          <CandidatoCard key={candidato.id} candidato={candidato} />
         ))}
       </div>
     </div>
