@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const PostJobPage: React.FC = () => {
@@ -101,6 +102,7 @@ const PostJobPage: React.FC = () => {
 
           {/* Botões */}
           <div className="flex justify-between">
+            <Link href="/">
             <button
               type="button"
               
@@ -108,6 +110,7 @@ const PostJobPage: React.FC = () => {
             >
               Voltar
             </button>
+            </Link>
             <button
               type="submit"
               className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700"
