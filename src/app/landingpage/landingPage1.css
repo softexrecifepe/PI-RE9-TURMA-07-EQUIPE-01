@@ -11,7 +11,7 @@ main{
 
 h2{
     font-size: 60px;
-    line-height: 20px;
+    line-height: 80px;
     font-family: poppins;
     color: rgb(132,14,201);
     margin-right: 70px;
@@ -29,8 +29,9 @@ p{
 }
 
 img{
-    width: 465px;
-    margin-left: 60px;
+    width: 460px;
+    margin-left: 70px;
+    margin-bottom: 40px;
 }
 
 form{
@@ -130,7 +131,8 @@ input{
     border: none; 
     border-top: 1px solid #a8aeff; 
     width: 166%;                
-    margin: 110px auto;        
+    margin: 130px auto;
+            
 }
 
 
