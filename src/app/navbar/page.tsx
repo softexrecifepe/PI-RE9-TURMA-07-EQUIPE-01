@@ -35,9 +35,9 @@ export function Header() {
           <a href="#empresas" className="text-purple-600 hover:text-purple-800">
             Empresas
           </a>
-          <a href="#anunciar-vaga" className="text-purple-600 hover:text-purple-800">
+          <Link href="/anunciarvaga" className="text-purple-600 hover:text-purple-800"> 
             Anunciar Vaga
-          </a>
+          </Link>
           <Link href="/login" className="text-purple-600 hover:text-purple-800">
             Login  
           </Link>
