@@ -1,32 +1,59 @@
 import Link from "next/link";
-import "./navBar.css"
+import "../styles/global.css";
 
 export function Header() {
   return (
     <header>
-            <nav>
-                <div>
-                    <ul className="nav-itens">
-                        <div className="logo">Re9</div>
-                        <li><a href="#">ACHAR VAGAS</a></li>
-                        <li><a href="#">AVALIAÇÕES DE EMPRESAS</a></li>
-                        <li><a href="#">SOBRE NÓS</a></li>
-                        <li><a href="#">SUPORTE</a></li>
-                        <li><Link href="/">HOME</Link></li>
-                    </ul>
-                </div>
-                <div className="btn">
-                   <ul className="actions-itens">
-                    <li><a href="#">Empresas</a></li>
-                    <li><a>|</a></li>
-                    <li><a href="#">Anunciar Vaga</a></li>
-                    <li><a>|</a></li>
-                    <li><Link href="/login">Login</Link></li>
-                    <li><Link href="/cadastro"><button  className="cadastro">Cadastrar CV</button></Link></li>
-                    <li><Link href="/cadastroEmpresa"><button  className="cadastro">Cadastrar Empresa</button></Link></li>
-                   </ul>
-                </div>
-            </nav>
+            <nav className="bg-white border-b border-gray-200 shadow-sm">
+      <div className="container mx-auto flex items-center justify-between py-3 px-4">
+        
+        <div className="text-4xl font-bold text-blue-600" >
+          Re9
+        </div>
+
+        
+        <div className="hidden md:flex space-x-6">
+          <Link href="/mainpage" className="text-purple-600 hover:text-purple-800">
+            Achar vagas
+          </Link>
+          <a href="#avaliacoes" className="text-purple-600 hover:text-purple-800">
+            Avaliações da empresa
+          </a>
+          <Link href=" " className="text-purple-600 hover:text-purple-800">
+            Sobre nós
+        </Link>
+          <a href="#suporte" className="text-purple-600 hover:text-purple-800">
+            Suporte
+          </a>
+          <Link href="/" className="text-purple-600 hover:text-purple-800">
+            Home
+        </Link>
+        </div>
+
+        
+        <div className="flex items-center space-x-10">
+          <a href="#empresas" className="text-purple-600 hover:text-purple-800">
+            Empresas
+          </a>
+          <a href="#anunciar-vaga" className="text-purple-600 hover:text-purple-800">
+            Anunciar Vaga
+          </a>
+          <Link href="/login" className="text-purple-600 hover:text-purple-800">
+            Login  
+          </Link>
+          <Link href="/cadastro">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full">
+            Cadastrar CV
+          </button>
+          </Link>
+          <Link href="/cadastroempresa">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full">
+            Cadastrar Empresa
+          </button>
+          </Link>
+        </div>
+      </div>
+    </nav>
         </header>
   );
 }
