@@ -64,6 +64,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 ### **Estrutura de Pastas**
 
+```axapta
 PI-RE9
 │
 ├── public/                    # Arquivos públicos (ícones, imagens, etc)
