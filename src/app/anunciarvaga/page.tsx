@@ -1,24 +1,23 @@
 import Link from "next/link";
-import React, { useState } from "react";
 
 const PostJobPage: React.FC = () => {
  
   return (
     <div className="bg-gray-100 min-h-screen">
-      {/* Cabeçalho */}
+      
       <header className="bg-blue-600 text-white py-4">
         <div className="container mx-auto px-8">
           <h1 className="text-2xl font-bold">Anunciar Vaga</h1>
         </div>
       </header>
 
-      {/* Formulário de Anúncio de Vaga */}
+      
       <main className="container mx-auto px-8 py-12">
         <form
           
           className="bg-white shadow-md rounded-lg p-6 space-y-6"
         >
-          {/* Título da Vaga */}
+          
           <div>
             <label htmlFor="jobTitle" className="block text-gray-700 font-semibold">
               Título da Vaga
@@ -34,7 +33,7 @@ const PostJobPage: React.FC = () => {
             />
           </div>
 
-          {/* Descrição da Vaga */}
+          
           <div>
             <label htmlFor="jobDescription" className="block text-gray-700 font-semibold">
               Descrição da Vaga
@@ -50,7 +49,7 @@ const PostJobPage: React.FC = () => {
             ></textarea>
           </div>
 
-          {/* Localização */}
+          
           <div>
             <label htmlFor="location" className="block text-gray-700 font-semibold">
               Localização
@@ -66,7 +65,7 @@ const PostJobPage: React.FC = () => {
             />
           </div>
 
-          {/* Salário */}
+          
           <div>
             <label htmlFor="salary" className="block text-gray-700 font-semibold">
               Salário (Opcional)
@@ -81,7 +80,7 @@ const PostJobPage: React.FC = () => {
             />
           </div>
 
-          {/* Tipo de Contrato */}
+          
           <div>
             <label htmlFor="jobType" className="block text-gray-700 font-semibold">
               Tipo de Contrato
@@ -100,7 +99,7 @@ const PostJobPage: React.FC = () => {
             </select>
           </div>
 
-          {/* Botões */}
+          
           <div className="flex justify-between">
             <Link href="/">
             <button
